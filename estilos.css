@@ -1,0 +1,178 @@
+.titulo {
+    background-color: transparent; 
+    height: auto; 
+    border: 2px solid black; 
+    text-align: center; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    color: black; 
+}
+
+.linea {
+    border-top: 2px dotted red; 
+    margin: 20px 0; 
+}
+
+.contenido-verde {
+    border: 2px dashed green; 
+    padding: 10px; 
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+.amarillo-negro {
+    color: yellow;
+    background-color: black; 
+}
+
+iframe { 
+    border: none; 
+}
+
+.contenido {
+    height: 500px; 
+}
+
+.pie { 
+    background-color: #FF5500; 
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    font-family: Arial;
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #b3e0ff; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.menu a:hover {
+    background-color: #99ccff; 
+}
+
+header {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: white; 
+    margin: 0; 
+}
+
+header-t4{
+    background-color: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+.descripcion {
+    margin-top: 20px; 
+}
+
+.naranja {
+    color: orange; 
+}
+
+.gris-negrita {
+    color: gray; 
+    font-weight: bold; 
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.azul {
+    color: blue; 
+}
+
+.fondo-amarillo {
+    background-color: rgba(255, 255, 0, 0.5); 
+    padding: 2px; 
+}
+
+.body-t4 {
+    text-align: center; 
+}
+
+h1-t4 {
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+.titulo-t4 {
+    background-color: transparent; 
+    border: none; 
+    text-align: center; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    color: black; 
+}
+
+.contenido-verde-t4 {
+    border: none; 
+    padding: 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+.sin-puntos-t4 {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.con-puntos-t4 {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    text-align: left; 
+}
+
+.contenedor {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin: 20px; 
+}
+
+.izquierda {
+    text-align: left; 
+    width: 45%; 
+}
+
+.derecha {
+    text-align: left; 
+    width: 45%; 
+}
+
+.tres-columnas {
+    display: flex; /* Diseño flex para las columnas */
+    justify-content: space-between; /* Espacio entre las columnas */
+    margin-top: 20px; /* Margen superior */
+}
+
+.columna {
+    width: 30%; /* Ancho de cada columna */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
